@@ -1,0 +1,39 @@
+.artigos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 255, 0.182);
+  text-align: left;
+
+  h2{
+    color: blue;
+    padding: ;
+
+
+  }
+
+  button{
+    background-color: white;
+    margin-left: auto;
+    border: 1px solid violet;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: violet;
+    font-weight: 900;
+    cursor: pointer;
+
+    &:hover{
+      background-color: violet;
+      color: white;
+    }
+  }
+}
